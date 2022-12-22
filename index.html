@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/styles.css">
+      <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;500&family=Raleway:ital@0;1&display=swap" rel="stylesheet">
+      <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+			integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+			crossorigin="anonymous"
+		/>
+      <title>Florerias elci</title>
+   </head>
+
+   <body>
+      
+      <section id="hero">
+
+         <div class="container">
+            
+            <nav>
+                  <img src="img/logo-elci.png" class="logo" alt="logo" width="100">
+               <div id="nav-list">
+                  
+                  <li class="md pointer"><img onclick="bar()" src="img/close.svg" alt=""></li>
+                  <li><a>INICIO</a></li>
+                  <li><a>SOMOS</a></li>
+                  <li><a>PORTAFOLIO</a></li>
+                  <li><a>GALERIAS</a></li>
+                  <li><a>COMERCIO</a></li>
+                  <li><a>CONTACTO</a></li>
+                  <li><a><img src="img/cart.svg" alt="shopping cart"></a></li>
+               </div>
+               <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+               <a href="javascript:void(0);" class="icon md" onclick="bar()">
+                  <img src="img/menu.svg" alt="">
+               </a>
+            </nav>
+
+            <section id="heading">
+               <h1>Los mejores regalos<br> de la naturaleza <br>para ti</h1>
+            </section>
+
+         </div>
+
+      </section>
+
+      <section id="about">
+
+         <div class="text-box">
+            <div class="text">
+               <h2>Acerca de Florerias elci</h2>
+               <p>Un jardín de muchos colores.<br> Producimos belleza y amor desde la emoción de las flores y plantas naturales.</p>
+               <button href="#" class="btn btn-green">Ver mas</button>
+            </div>
+            
+         </div>
+
+         <div class="img">
+            <img src="img/about-image.png" alt="a flower">
+         </div>
+
+      </section>
+
+      <div class="container">
+
+      <section id="me">
+
+            <div class="text-box">
+               <div class="text">
+                  <h2>Elci<img src="img/twig.png" style="width: 42.5px; height: 76px;" alt="a picture of a twig"></h2>
+                  <p>Soy elci, una florista apasionada y amante de las plantas, mirar la naturaleza alegre de las plantas y admirar la belleza de la naturaleza es una gran perfección por la que vivo.</p>
+                  <button class="btn btn-pink">Ver mas</button>
+               </div>
+            </div>
+
+            <div class="img">
+               <img src="img/me-image.png" alt="a picture of me">
+            </div>
+
+      </section>
+
+      <section id="Catalogo">
+
+         <img class="free-image-1 lg" src="img/free-image.png" alt="">
+
+         <img class="free-image-1 sm" src="img/free-image-sm.png" alt="">
+
+         <h2>Catalogo</h2>
+
+         <div class="grid-box">
+
+            <div class="grid-item mySlides fade">
+               <img src="img/rositas2.PNG" alt="a flower">
+               <h3>Ramo"Rosas Pasion"</h3>
+               <p>Un detalle para ella</p>
+            </div>
+            
+            <div class="grid-item mySlides fade">
+               <img src="img/tulipanes1.PNG" alt="a flower">
+               <h3>Ramo "Tulipanes"</h3>
+               <p>Una primavera mas</p>
+            </div>
+            
+            <div class="grid-item mySlides fade">
+               <img src="img/girasoles1.PNG" alt="a flower">
+               <h3>Ramo "Girasoles"</h3>
+               <p>Maravillas en tu vida</p>
+            </div>
+            
+            <div class="grid-item mySlides fade">
+               <img src="img/margaritas1.png" alt="a flower">
+               <h3>Ramo "Margaritas"</h3>
+               <p>lleno de frescura y calidez</p>
+            </div>
+            
+            <div class="grid-item mySlides fade">
+               <img src="img/soleados1.PNG" alt="a flower">
+               <h3>Ramo "Lirios"</h3>
+               <p>Modern</p>
+            </div>
+            
+            <div class="grid-item mySlides fade">
+               <img src="img/Alstroemeria.PNG" alt="a flower">
+               <h3>Ramo "Alstroemeria"</h3>
+               <p>Spring</p>
+            </div>
+            
+            <!-- Next and previous buttons -->
+            <a class="prev xs"><i class="fas fa-chevron-left fa-2x"></i></a>
+            <a class="next xs"><i class="fas fa-chevron-right fa-2x"></i></a>
+         </div>
+
+         <!-- The dots/circles -->
+         <!-- <div style="text-align:center" class="xs dots">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(5)"></span> 
+            <span class="dot" onclick="currentSlide(6)"></span> 
+         </div> -->
+         
+      </section>
+
+      <section id="shop">
+
+         <img class="free-image-2 lg" src="img/free-image-2.png" alt="">
+
+         <img class="free-image-2 sm" src="img/free-image-2-sm.png" alt="">
+
+         <h2>Tienda</h2>
+
+         <div class="grid-box">
+
+            <div class="grid-item mySlides2 fade">
+               <img src="img/regaloss.png" alt="a flower for sale">
+               <div class="item-text item-text-pink">
+                  <h3>Regalos</h3>
+                  <p>s/.30.00</p>
+               </div>
+            </div>
+            
+            <div class="grid-item mySlides2 fade">
+               <img src="img/corona.PNG" alt="a flower for sale">
+               <div class="item-text item-text-pink">
+                  <h3>Coronas Funebres</h3>
+                  <p>s/.30.00</p>
+               </div>
+            </div>
+
+            <div class="grid-item mySlides2 fade">
+               <img src="img/flor.PNG" alt="a flower for sale">
+               <div class="item-text item-text-pink">
+                  <h3>Flores Artificiales</h3>
+                  <p>s/.20.00</p>
+               </div>
+            </div>
+
+            <div class="grid-item mySlides2 fade">
+               <img src="img/boda.PNG" alt="a flower for sale">
+               <div class="item-text item-text-green">
+                  <h3>Ramo de Novia</h3>
+                  <p>s/.46.00</p>
+               </div>
+            </div>
+
+            <div class="grid-item mySlides2 fade">
+               <img src="img/decoracion.PNG" alt="a flower for sale">
+               <div class="item-text item-text-green">
+                  <h3>Decoracion Floral</h3>
+                  <p>s/.30.00</p>
+               </div>
+            </div>
+
+            <div class="grid-item mySlides2 fade">
+               <img src="img/arreglo.PNG" alt="a flower for sale">
+               <div class="item-text item-text-green">
+                  <h3>Arreglos Florales para Eventos</h3>
+                  <p>s/.30.00</p>
+               </div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev2 xs"><i class="fas fa-chevron-left fa-2x"></i></a>
+            <a class="next2 xs"><i class="fas fa-chevron-right fa-2x"></i></a>
+         </div>
+
+         <!-- The dots/circles -->
+         <!-- <div style="text-align:center" class="xs dots">
+            <span class="dot2" onclick="currentSlide2(1)"></span> 
+            <span class="dot2" onclick="currentSlide2(2)"></span> 
+            <span class="dot2" onclick="currentSlide2(3)"></span> 
+            <span class="dot2" onclick="currentSlide2(4)"></span> 
+            <span class="dot2" onclick="currentSlide2(5)"></span> 
+            <span class="dot2" onclick="currentSlide2(6)"></span> 
+         </div> -->
+
+      </section>
+
+      </div>
+
+      <section id="offer">
+
+         <div class="image">
+            <img src="img/offer-image.png" alt="flower">
+         </div>
+
+         <div class="text-box">
+            <div class="text">
+               <h2>Florerias "elci" con nuestra fragancia seleccionada</h2>
+               <p>Contamos con profesionales diplomados en arte floral, años de experiencia en el sector. Florerias elci en todos los trabajos realizados destaca por la búsqueda armónica de la forma y el color del producto; unos acabados sencillos y elegantes que dan un resultado personal y cálido a cada proyecto realizado.</p>
+               <button class="btn btn-pink">Ver mas</button>
+            </div>
+           
+         </div>
+
+      </section>
+
+      <section id="clients">
+
+         <div class="container content">
+
+            <h2>Lo que dicen nuestras clientas</h2>
+
+            <div class="grid-box">
+
+               <div class="grid-item mySlides3 fade">
+                  <img src="img/client-1.png" alt="a woman with flowers">
+                  <h3>Sara Espinoza</h3>
+                  <p>La increíble sensación que viene con las flores ricas en flujo y las plantas son increíblemente hermosas..</p>
+               </div>
+               
+               <div class="grid-item mySlides3 fade">
+                  <img src="img/client-2.png" alt="a woman with flowers">
+                  <h3>Linda de la Torre</h3>
+                  <p>Fragancia siempre puntual y bien seleccionada.</p>
+               </div>
+
+               <div class="grid-item mySlides3 fade">
+                  <img src="img/client-3.png" alt="a woman with flowers">
+                  <h3>Eva Lozano</h3>
+                  <p>Lo que me encanta de Florerias "elci" son los entornos limpios y la muestra profesional de simplicidad.</p>
+               </div>
+
+               
+            <!-- Next and previous buttons -->
+            <a class="prev3 xs"><i class="fas fa-chevron-left fa-2x"></i></a>
+            <a class="next3 xs"><i class="fas fa-chevron-right fa-2x"></i></a>
+
+            </div>
+
+         </div>
+
+      </section>
+
+      <section id="contact">
+
+         <div class="container content">
+
+            <div class="text-box">
+               <div class="text">
+                  <h2>Contacta con nosotras
+                  </h2>
+                  <p>Jr.los olivos #1234<br> Puno-Peru</p>
+                  <div class="sub-text-box">
+                     <p>Telefono:984635362</p>
+                     <p>Floreriaselci234@gmail.com</p>
+                  </div>
+                  <form action="#">
+                     <input type="email" name="email" id="email" placeholder="correo electrónico">
+                  </form>
+                  <button class="btn btn-green">Enviar</button>
+               </div>
+            </div>
+
+            <div class="img">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.6301449051975!2d-122.45391588519045!3d37.77526961990509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085874c7aef1b37%3A0xee263642436feb44!2s2130%20Fulton%20St%2C%20San%20Francisco%2C%20CA%2094117%2C%20USA!5e0!3m2!1sen!2sng!4v1595733123502!5m2!1sen!2sng" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+
+         </div>
+
+      </section>
+
+      <div class="container">
+
+      <section id="newsletter">
+         <div class="text">
+            <h2>Suscríbete a nuestra pagina</h2>
+            <form action="#">
+               <input type="email" name="email" id="email" placeholder="correo electrónico">
+            </form>
+            <button class="btn btn-pink">Suscribir</button>
+         </div>
+      </section>
+         
+      </div>
+
+      <footer>
+
+         <div class="content">
+
+            <div class="image">
+               <img src="" alt="">
+            </div>
+
+            <div class="text-grid">
+
+               <div class="text">
+                  <h3>Sobre</h3>
+                  <ul>
+                     <li>Nuestro Servicio</li>
+                     <li>Nuestra tienda</li>
+                     <li>Nuestros planes</li>
+                  </ul>
+               </div>
+               
+               <div class="text">
+                  <h3>Contacto</h3>
+                  <ul>
+                     <li>Contáctenos</li>
+                     <li>Sobre mí</li>
+                     <li>Pagina</li>
+                  </ul>
+               </div>
+               
+               <div class="text">
+                  <h3>Síguenos</h3>
+                  <div class="social">
+                     <img src="images/facebook-icon.svg" alt="">
+                     <img src="images/twitter-icon.svg" alt="">
+                     <img src="images/instagram-icon.svg" alt="">
+                  </div>
+               </div>
+               
+            </div>
+
+         </div>
+         
+      </footer>
+
+      <script src="js/script.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/ScrollTrigger.min.js"></script>
+      <script src="js/gsap.js"></script>
+
+   </body>
+
+</html>
